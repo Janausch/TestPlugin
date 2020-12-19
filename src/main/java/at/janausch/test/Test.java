@@ -13,13 +13,13 @@ public final class Test extends JavaPlugin {
         // Plugin startup logic
         register();
 
-        Bukkit.getConsoleSender().sendMessage("Test geladen");
+        Bukkit.getConsoleSender().sendMessage("[Test] geladen");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        Bukkit.getConsoleSender().sendMessage("Test entladen");
+        Bukkit.getConsoleSender().sendMessage("[Test] entladen");
     }
 
     private void register(){
