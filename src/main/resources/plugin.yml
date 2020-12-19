@@ -1,0 +1,18 @@
+name: Test
+version: ${project.version}
+main: at.janausch.test.Test
+api-version: 1.16
+authors: [ Janausch ]
+description: Nur für ein paar Test
+
+
+commands:
+  test:
+    description: Zeigt dir eine Test-Nachricht an
+    aliases: ["testhelp"]
+
+
+permissions:
+  at.janausch.test:
+    description: Damit kannst du den Testcommand anzeigen
+    default: op
